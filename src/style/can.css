@@ -1,0 +1,16 @@
+.navbar-brand-logo{
+    width: 90px;
+}
+
+.nav-bg{
+    background: #282a32 !important;
+}
+
+.nav-link{
+    color: #FFFFFF;
+}
+
+
+.navbar-toggler>span{
+    color: #FFFFFF !important;
+}
