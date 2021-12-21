@@ -18,3 +18,9 @@
 .navbar-toggler>span{
     color: #FFFFFF !important;
 }
+
+.pyk{
+    padding-top: 90px !important;
+    display: flex;
+    justify-content: center;
+}

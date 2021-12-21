@@ -64,3 +64,11 @@ button:focus:not(:focus-visible) {
     outline: none !important; 
     box-shadow: none !important;
 }
+
+.request{
+    font-size: 30px;
+    font-family: var(--Montserrat-Bold);
+    font-weight: 500;
+    color: #282a32;
+
+}
