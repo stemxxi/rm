@@ -133,7 +133,7 @@
     }
     .header__content-btn {
         position: absolute;
-        bottom: -62px;
+        bottom: 95px;
         z-index: 1000;
         font-size: 13px;
     }
