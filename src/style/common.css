@@ -15,16 +15,11 @@
 }
 
 :root {
-    --Montserrat-Bold: 'Montserrat-Bold';
-    --Montserrat-ExtraBold: 'Montserrat-ExtraBold';
-    --Montserrat-Light: 'Montserrat-Light';
-    --Montserrat-Medium: 'Montserrat-Medium';
-    --Montserrat-Regular: 'Montserrat-Regular';
-    --NunitoSans-Black: 'NunitoSans-Black';
-    --NunitoSans-Bold: 'NunitoSans-Bold';
-    --NunitoSans-ExtraBold: 'NunitoSans-ExtraBold';
-    --NunitoSans-Light: 'NunitoSans-Light'; 
-    --NunitoSans-Regular: 'NunitoSans-Regular'; 
+    --Poppins-Medium: 'Poppins-Medium';
+    --Poppins-MediumItalic: 'Poppins-MediumItalic';
+    --Poppins-Regular: 'Poppins-Regular';
+    --Poppins-SemiBold: 'Poppins-SemiBold';
+    --IBMPlexSans-Bold: 'IBMPlexSans-Bold';
     --white: #FFFFFF;
     --Gray: #C4C4C4;
     --black: #222222;
