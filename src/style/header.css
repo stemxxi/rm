@@ -165,3 +165,7 @@ button:focus:not(:focus-visible) {
     opacity: 1;
     animation: animate 8s linear infinite;
   }
+
+  .header{
+      background-color: #FFF5EE;
+  }
