@@ -132,8 +132,8 @@
        
     }
     .header__content-btn {
-        position: absolute;
-        bottom: 95px;
+        position: relative;
+        bottom: -165px;
         z-index: 1000;
         font-size: 13px;
     }
@@ -171,8 +171,8 @@
         left: -100px;
     }
     .header__content-btn {
-        position: absolute;
-        bottom: 20px;
+        position: relative;
+        bottom: -165px;
         z-index: 1000;
         font-size: 13px;
     }
@@ -201,10 +201,10 @@
         left: -136px;
     }
     .header__content-btn {
-        position: absolute;
-        bottom: 148px;
+        position: relative;
+        bottom: -165px;
         z-index: 1000;
-        font-size: 11px;
+        font-size: 13px;
         padding: 20px;
     }
     

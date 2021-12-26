@@ -133,7 +133,7 @@ button:focus:not(:focus-visible) {
     display: none;
 }
 
-.header__content-btn {
+/* .header__content-btn {
     animation: animate 2s linear infinite;
   }
    
@@ -165,4 +165,4 @@ button:focus:not(:focus-visible) {
     filter: blur(20px);
     opacity: 1;
     animation: animate 8s linear infinite;
-  }
+  } */
