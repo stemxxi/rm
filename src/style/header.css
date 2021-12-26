@@ -79,6 +79,7 @@ button:focus:not(:focus-visible) {
 .header{
     padding-top: 120px;
     padding: 120px 15px 0px 15px;
+    background-color: #FFF5EE !important;
 }
 
 .header-content{
@@ -164,8 +165,4 @@ button:focus:not(:focus-visible) {
     filter: blur(20px);
     opacity: 1;
     animation: animate 8s linear infinite;
-  }
-
-  .header{
-      background-color: #FFF5EE;
   }
