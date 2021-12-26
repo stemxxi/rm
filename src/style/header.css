@@ -78,8 +78,8 @@ button:focus:not(:focus-visible) {
 /* HEADER */
 .header{
     padding-top: 120px;
-    padding: 120px 15px 0px 15px;
-    background-color: #FFF5EE !important;
+    padding: 120px 15px 60px 15px;
+    background: #FFF5EE !important;
 }
 
 .header-content{
