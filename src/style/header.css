@@ -79,7 +79,7 @@ button:focus:not(:focus-visible) {
 .header{
     padding-top: 120px;
     padding: 120px 15px 60px 15px;
-    background: #FFF5EE !important;
+    /* background: #FFF5EE !important; */
 }
 
 .header-content{
@@ -166,3 +166,89 @@ button:focus:not(:focus-visible) {
     opacity: 1;
     animation: animate 8s linear infinite;
   } */
+
+
+  @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+  /*****************************************
+  *  --------------------------------------*
+  *  Vars                                  *
+  *  --------------------------------------*
+  *****************************************/
+  
+ 
+  
+  /*****************************************
+  *  --------------------------------------*
+  *  General                               *
+  *  --------------------------------------*
+  *****************************************/
+  
+  
+  
+  /*****************************************
+  *  --------------------------------------*
+  *  Slick                                 *
+  *  --------------------------------------*
+  *****************************************/
+  
+  .cl {
+    height:200px;
+    padding:10px;
+  }
+  
+  .cl-yellow { 
+    background: #f1c40f; 
+  }
+  
+  .cl-blue { 
+    background: #3498db; 
+  }
+  
+  .cl-red { 
+    background: #e74c3c; 
+  }
+  
+  .slick-active { 
+    padding: 20px 0; 
+  }
+  
+  .slick-center { 
+    transform: scale(1.08) 
+  }
+  
+  .slick-slide:not(.slick-active) { 
+    margin: 20px 0; 
+  }
+  
+  .child { 
+    width:100%; 
+  }
+  
+  .slide:not(.slick-active) { 
+    cursor: pointer; 
+  }
+  
+
+
+  .slide-main-work{
+    background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
+    box-shadow: inset 0px 4px 4px rgba(30, 149, 155, 0.5);
+    border-radius: 25px;
+    width: 250px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slide-title{
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--Poppins-Medium);
+    margin-top: 37px;
+    font-weight: 500;
+  }
