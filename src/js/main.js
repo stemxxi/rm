@@ -89,7 +89,7 @@ $slickEl.slick({
       }
     },
     {
-      breakpoint: 321,
+      breakpoint: 340,
       settings: {
         arrows: false,
         centerMode: true,
