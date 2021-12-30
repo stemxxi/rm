@@ -183,7 +183,55 @@ button:focus:not(:focus-visible) {
   *  General                               *
   *  --------------------------------------*
   *****************************************/
+
+/* .wrapper{
+  padding: 110px 0;
+} */
+/* Default slide */
+.center-slider .slick-slide{
   
+ 
+  /* margin: 0 20px 0 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.8);
+  transition: all 1s ease-in-out;
+  
+}
+.center-slider .slick-slide,
+.center-slider .slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
+  transform: scale(0.8, 0.8);
+  transition: all 1s ease-in-out;
+  
+}
+
+/* Active center slide (You can change anything here for cenetr slide)*/
+.center-slider .slick-center,
+.center-slider .slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"] {
+  transform: scale(0.95);
+ 
+  
+}
+.center-slider .slick-current.slick-active{
+  transform: scale(0.95);
+  
+
+}
+
+.slick-next, .slick-prev{
+  z-index: 5;
+}
+.slick-next{
+  right: 15px;
+}
+.slick-prev{
+  left: 15px;
+}
+.slick-next:before, .slick-prev:before{
+  color: #000;
+  font-size: 26px;
+}
   
   
   /*****************************************
@@ -192,55 +240,20 @@ button:focus:not(:focus-visible) {
   *  --------------------------------------*
   *****************************************/
   
-  .cl {
-    height:200px;
-    padding:10px;
-  }
-  
-  .cl-yellow { 
-    background: #f1c40f; 
-  }
-  
-  .cl-blue { 
-    background: #3498db; 
-  }
-  
-  .cl-red { 
-    background: #e74c3c; 
-  }
-  
-  .slick-active { 
-    padding: 20px 0; 
-  }
-  
-  .slick-center { 
-    transform: scale(1.08) 
-  }
-  
-  .slick-slide:not(.slick-active) { 
-    margin: 20px 0; 
-  }
-  
-  .child { 
-    width:100%; 
-  }
-  
-  .slide:not(.slick-active) { 
-    cursor: pointer; 
-  }
-  
+
 
 
   .slide-main-work{
     background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
     box-shadow: inset 0px 4px 4px rgba(30, 149, 155, 0.5);
     border-radius: 25px;
-    width: 250px;
+    width: 325px;
     height: 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
   }
   
   .slide-title{
