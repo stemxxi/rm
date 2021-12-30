@@ -164,7 +164,7 @@ $(document).ready(function(){
             settings: {
               arrows: false,
               centerMode: true,
-              centerPadding: '90px',
+              centerPadding: '50px',
               slidesToShow: 1
             }
           },

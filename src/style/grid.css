@@ -198,7 +198,7 @@
         background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
         box-shadow: inset 0px 4px 4px rgba(30, 149, 155, 0.5);
         border-radius: 25px;
-        width: 290px !important;
+        width: 250px !important;
         height: 200px;
         display: flex;
         flex-direction: column;
@@ -238,7 +238,7 @@
         background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
         box-shadow: inset 0px 4px 4px rgba(30, 149, 155, 0.5);
         border-radius: 25px;
-        width: 280px !important;
+        width: 250px !important;
         height: 200px;
         display: flex;
         flex-direction: column;
