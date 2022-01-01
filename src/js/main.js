@@ -112,7 +112,7 @@ $(document).ready(function(){
     centerPadding: '30px',
     infinite: true,
     autoplaySpeed: 4000,
-    autoplay: true,
+    // autoplay: true,
     responsive: [
           {
             breakpoint: 1201,
@@ -148,6 +148,24 @@ $(document).ready(function(){
               centerMode: true,
               centerPadding: '50px',
               slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 531,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '50px',
+              slidesToShow: 1
+            }
+          },
+          {
+            breakpoint: 520,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '50px',
+              slidesToShow: 1
             }
           },
           {
