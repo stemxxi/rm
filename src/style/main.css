@@ -137,6 +137,6 @@ div.highway-slider ul.highway-lane li.highway-car {
 .ad-title{
     color: #FFFFFF;
     font-size: 34px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: var(--Montserrat-Bold);
     
 }
