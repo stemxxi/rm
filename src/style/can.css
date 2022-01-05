@@ -4,6 +4,7 @@
 
 .nav-bg{
     background: #282a32 !important;
+    box-shadow: 0px 4px 4px rgba(30, 149, 155, 0.5);;
 }
 
 .nav-link{

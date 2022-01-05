@@ -20,14 +20,14 @@
 } */
 
 
-.cl{
+/* .cl{
     padding: 0px !important;
     margin: 0px !important;
-}
+} */
 
 
 /* ADS */
-
+/* 
 
 
 section div.container {
@@ -54,9 +54,9 @@ div.highway-slider {
 }
 div.highway-slider div.highway-barrier {
     /* overflow: hidden; */
-    position: relative;
-}
-div.highway-slider ul.highway-lane {
+    /* position: relative; */
+/* } */
+/* div.highway-slider ul.highway-lane {
     display: flex;
     height: 100%;
 }
@@ -96,8 +96,8 @@ div.highway-slider ul.highway-lane li.highway-car {
     position: absolute;
     z-index: 9;
     width: 180px;
-    height: 100%;
-}
+    height: 100%; */
+/* } */ 
 /* #infinite div.highway-barrier::before {
     top: 0;
     left: 0;
@@ -108,7 +108,7 @@ div.highway-slider ul.highway-lane li.highway-car {
     right: 0;
     background: linear-gradient(to left,#ffffff 0%,rgba(255,255,255,0) 100%);
 } */
-#infinite div.highway-barrier ul.highway-lane {
+/* #infinite div.highway-barrier ul.highway-lane {
     width: calc(4320px);
 }
 #infinite div.highway-barrier ul.highway-lane li.highway-car {
@@ -139,4 +139,86 @@ div.highway-slider ul.highway-lane li.highway-car {
     font-size: 34px;
     font-family: var(--Montserrat-Bold);
     
+}
+
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 57px !important;
+    line-height: 1;
+    opacity: .75;
+    color: red !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.skills-title{
+    font-size: 35px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #333;
+    font-family: var(--Poppins-SemiBold);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.skills-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    border: 2px solid gray;
+    justify-content: center;
+    padding: 55px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    box-shadow: 1px 1px 20px rgb(0 0 0 / 10%);
+    transition: 0.5s;
+    
+}
+
+.main-btn{
+    font-size: 22px !important;
+}
+
+.skills-card:hover{
+    box-shadow: inset 0px 4px 4px 4px rgba(30, 149, 155, 0.5);
+    transition: 0.5s;
+}
+
+.skills__card-title{
+    color: #333;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+}
+
+.skills__card-description{
+    font-size: 19px;
+    line-height: 32px;
+    color: #333;
+    font-family: "Source Serif Pro",serif;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.skills-cards{
+   /* display: flex;
+   flex-wrap: wrap;
+   justify-content: center; */
+   display: grid;
+   grid-template-columns: repeat(3, 3fr);
 }
